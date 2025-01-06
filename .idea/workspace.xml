@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advent-of-Code-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/common/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/common/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year24/Day2024.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year24/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year24/days/Day01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year24/days/Day02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2024/day01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2024/day02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2024/test01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/Day2015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2015/test01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/common/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/common/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/template.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "n-cipolla"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/n-cipolla/advent-of-code-java.git",
+    "accountId": "9b6d128a-bdca-4c35-a2fe-64320bd551ee"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -52,9 +57,12 @@
   "keyToString": {
     "Application.Day01.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.main.java.adventofcode.year15.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/allop/Documents/Advent-of-Code-Java/src/main/java/resources/year2015",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +72,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\allop\Documents\Advent-of-Code-Java\src\main\java\resources\year2015" />
+      <recent name="C:\Users\allop\Documents\Advent-of-Code-Java\src\main\java\adventofcode\year15" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\allop\Documents\Advent-of-Code-Java\src\main\java\resources\year24" />
     </key>
@@ -72,7 +84,7 @@
       <recent name="main.java.adventofcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day01">
+  <component name="RunManager" selected="Application.main.java.adventofcode.year15.Main">
     <configuration name="Day01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.adventofcode.year24.days.Day01" />
       <module name="Advent-of-Code-Java" />
@@ -99,8 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.adventofcode.year15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.adventofcode.year15.Main" />
+      <module name="Advent-of-Code-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.adventofcode.year15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.java.adventofcode.year15.Main" />
         <item itemvalue="Application.Day01" />
         <item itemvalue="Application.Main" />
       </list>
@@ -122,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736112201134</updated>
-      <workItem from="1736112202280" duration="6386000" />
+      <workItem from="1736112202280" duration="8678000" />
     </task>
     <servers />
   </component>

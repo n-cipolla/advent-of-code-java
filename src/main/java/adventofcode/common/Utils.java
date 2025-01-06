@@ -15,7 +15,7 @@ public class Utils {
         try(BufferedReader br = new BufferedReader(new FileReader(resource))) {
             String line;
             while ((line = br.readLine()) != null) {
-                lines.add(line);  // Add each line to the ArrayList
+                lines.add(line);
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
