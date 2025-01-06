@@ -24,8 +24,8 @@ public class Day15 extends Day2015 {
 
     @Override
     public Object part2() {
-        File in = Day01.getResource("day15.txt", 2015);
-        File test = Day01.getResource("test15.txt", 2015);
+        File in = Day15.getResource("day15.txt", 2015);
+        File test = Day15.getResource("test15.txt", 2015);
 
         var input = Utils.realOrTest(in, test);
 

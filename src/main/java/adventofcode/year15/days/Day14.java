@@ -19,8 +19,8 @@ public class Day14 extends Day2015 {
 
     @Override
     public Object part1() {
-        File input = Day01.getResource("day14.txt", 2015);
-        File test = Day01.getResource("test14.txt", 2015);
+        File input = Day14.getResource("day14.txt", 2015);
+        File test = Day14.getResource("test14.txt", 2015);
 
         var lines = Utils.realOrTest(input, test);
         HashMap<String, Integer> hm = new HashMap<>();
@@ -36,8 +36,8 @@ public class Day14 extends Day2015 {
 
     @Override
     public Object part2() {
-        File in = Day01.getResource("day14.txt", 2015);
-        File test = Day01.getResource("test14.txt", 2015);
+        File in = Day14.getResource("day14.txt", 2015);
+        File test = Day14.getResource("test14.txt", 2015);
 
         var input = Utils.realOrTest(in, test);
 

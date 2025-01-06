@@ -18,8 +18,8 @@ public class Day06 extends Day2015 {
 
     @Override
     public Object part1() {
-        File input = Day01.getResource("day06.txt", 2015);
-        File test = Day01.getResource("test06.txt", 2015);
+        File input = Day06.getResource("day06.txt", 2015);
+        File test = Day06.getResource("test06.txt", 2015);
 
         var lines = Utils.realOrTest(input, test);
 
@@ -41,8 +41,8 @@ public class Day06 extends Day2015 {
 
     @Override
     public Object part2() {
-        File input = Day01.getResource("day06.txt", 2015);
-        File test = Day01.getResource("test06.txt", 2015);
+        File input = Day06.getResource("day06.txt", 2015);
+        File test = Day06.getResource("test06.txt", 2015);
 
         var lines = Utils.realOrTest(input, test);
 

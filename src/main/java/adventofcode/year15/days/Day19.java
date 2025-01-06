@@ -5,19 +5,20 @@ import main.java.adventofcode.year15.Day2015;
 
 import java.io.File;
 
-public class Day{day} extends Day2015 {
-    public Day{day}() {
-        super({day});
+public class Day19 extends Day2015 {
+    public Day19() {
+        super(19);
     }
 
     public static void main(String[] args) {
-        new Day{day}().printParts();
+        new Day19().printParts();
     }
 
     @Override
     public Object part1() {
-        File input = Day{day}.getResource("day{day}.txt", 2015);
-        File test = Day{day}.getResource("test{day}.txt", 2015);
+        File input = Day19.getResource("day19.txt", 2015);
+        File compound = Day19.getResource("day19compound.txt", 2015);
+        File test = Day19.getResource("test19.txt", 2015);
 
         var lines = Utils.realOrTest(input, test);
         return 1;
@@ -25,8 +26,8 @@ public class Day{day} extends Day2015 {
 
     @Override
     public Object part2() {
-        File input = Day{day}.getResource("day{day}.txt", 2015);
-        File test = Day{day}.getResource("test{day}.txt", 2015);
+        File input = Day19.getResource("day19.txt", 2015);
+        File test = Day19.getResource("test19.txt", 2015);
 
         var lines = Utils.realOrTest(input, test);
         return 1;
