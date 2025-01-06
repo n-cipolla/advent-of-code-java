@@ -14,3 +14,11 @@ Individual solutions located in `src/main/java/adventofcode/year##/days`.
 | 2022 | ![](https://geps.dev/progress/0)  |
 | 2023 | ![](https://geps.dev/progress/20) |
 | 2024 | ![](https://geps.dev/progress/18) |
+
+
+Note: These solutions are not intended to be elegant; I began solving Advent of Code problems in 2023
+while taking a data structures course in undergrad. My purpose with these challenges is to maintain proficiency in
+Java and to keep practicing and learning new concepts. Additionally, I did not start organizing my code into
+a repository until early 2025 which had led to some interesting oddities showing up in my earlier solutions
+(namely those for 2015). I have attempted to adapt my older solutions into the format laid out by this
+repository, but make no promises.
