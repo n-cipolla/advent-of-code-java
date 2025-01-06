@@ -47,7 +47,7 @@ public class Day05 extends Day2024 {
 
         HashMap<Integer, ArrayList<Integer>> instructions = new HashMap<>();
         for(String s : sequences) {
-            var numbers = s.split("\\|");
+            String[] numbers = s.split("\\|");
             if(instructions.containsKey(Integer.parseInt(numbers[0]))) {
                 var tmp = instructions.get(Integer.parseInt(numbers[0]));
                 tmp.add(Integer.parseInt(numbers[1]));
@@ -62,24 +62,20 @@ public class Day05 extends Day2024 {
         ArrayList<ArrayList<Integer>> valid = new ArrayList<>();
 
         for(ArrayList<Integer> page : pages) {
-            for(int i = 0; i < page.size(); i++) {
-                boolean good = true;
-                for(int j = i; j < page.size(); j++) {
-                    if(!(instructions.containsKey(page.get(i)) && instructions.get(page.get(i)).containsAll(page.subList(j, page.size()-1)))) {
-                        good = false;
-                        break;
-                    }
+            boolean good = true;
+            for(int i = 0; i < page.size()-1; i++) {
+                if(!(instructions.containsKey(page.get(i)) && instructions.get(page.get(i)).containsAll(page.subList(i+1, page.size())))) {
+                    good = false;
+                    break;
                 }
-                if(good) valid.add(page);
             }
+            if(good) valid.add(page);
         }
-        System.out.println(valid);
         int total = 0;
         for(ArrayList<Integer> page : valid) {
             total += page.get(page.size()/2);
         }
-
-        return total + "is incorrect.";
+        return total;
     }
 
     @Override
