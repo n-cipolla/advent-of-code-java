@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year24/days/Day03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2024/day03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2024/test03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year24/days/Day05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2024/day05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2024/test05.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,8 @@
     "Application.Day01.executor": "Run",
     "Application.Day02.executor": "Run",
     "Application.Day03.executor": "Run",
+    "Application.Day04.executor": "Run",
+    "Application.Day05.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.main.java.adventofcode.year15.Main.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day01.executor": "Run",
@@ -81,7 +83,7 @@
       <recent name="main.java.adventofcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day04">
+  <component name="RunManager" selected="Application.Day05">
     <configuration name="Day02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.adventofcode.year24.days.Day02" />
       <module name="Advent-of-Code-Java" />
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.java.adventofcode.year15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.adventofcode.year15.Main" />
+    <configuration name="Day05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.adventofcode.year24.days.Day05" />
       <module name="Advent-of-Code-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.adventofcode.year15.*" />
+          <option name="PATTERN" value="main.java.adventofcode.year24.days.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day05" />
         <item itemvalue="Application.Day04" />
         <item itemvalue="Application.Day03" />
         <item itemvalue="Application.Day02" />
         <item itemvalue="Application.main.java.adventofcode.year15.days.Day01" />
-        <item itemvalue="Application.main.java.adventofcode.year15.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736112201134</updated>
-      <workItem from="1736112202280" duration="11604000" />
+      <workItem from="1736112202280" duration="14567000" />
     </task>
     <servers />
   </component>
