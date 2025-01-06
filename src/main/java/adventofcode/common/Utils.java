@@ -33,4 +33,36 @@ public class Utils {
             return readLines(real);
         } else throw new IllegalArgumentException("Enter only [t] or [r].");
     }
+
+    public static ArrayList<ArrayList<Integer>> powerset(ArrayList<Integer> input) {
+        var ret = new ArrayList<ArrayList<Integer>>();
+        int n = input.size();
+        double size = Math.pow(2, input.size());
+
+        for(int i = 0; i < (1 << n); ++i) {
+            ArrayList<Integer> subset = new ArrayList<>();
+            for(int j = 0; j < n; ++j) {
+                if((i & (1 << j)) > 0) {
+                    subset.add(input.get(j));
+                }
+            }
+            ret.add(subset);
+        }
+        return ret;
+    }
+
+    public static void printGrid(char[][] input, int size) {
+        for(int i = 0; i < size; i++) {
+            for(int j = 0; j < size; j++) {
+                System.out.print(input[i][j]);
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public static void printGrid(char[][] input) {
+        int size = input.length;
+        printGrid(input, size);
+    }
 }

@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2015/day10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2015/day11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/days/Day18.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/common/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/common/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,12 @@
     "Application.Day08.executor": "Run",
     "Application.Day10.executor": "Run",
     "Application.Day11.executor": "Run",
+    "Application.Day12.executor": "Run",
+    "Application.Day14.executor": "Run",
+    "Application.Day15.executor": "Run",
+    "Application.Day16.executor": "Run",
+    "Application.Day17.executor": "Run",
+    "Application.Day18.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.main.java.adventofcode.year15.Main.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day01.executor": "Run",
@@ -187,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736112201134</updated>
       <workItem from="1736112202280" duration="15113000" />
-      <workItem from="1736139315634" duration="5285000" />
+      <workItem from="1736139315634" duration="9678000" />
     </task>
     <servers />
   </component>
