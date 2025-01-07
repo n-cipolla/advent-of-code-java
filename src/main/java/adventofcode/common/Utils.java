@@ -3,7 +3,6 @@ package main.java.adventofcode.common;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -77,11 +76,39 @@ public class Utils {
         printGrid(input, size);
     }
 
+    public static void printRectGrid(int[][] input) {
+        for(int i = 0; i < input.length; i++) {
+            for(int j = 0; j < input[0].length; j++) {
+                System.out.print(input[i][j]);
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public static ArrayList<Integer> fourNeighbours(int[][] input, int row, int col) {
+        ArrayList<Integer> ret = new ArrayList<>();
+        try {ret.add(input[row-1][col]);} catch (IndexOutOfBoundsException ignored) {}
+        try {ret.add(input[row+1][col]);} catch (IndexOutOfBoundsException ignored) {}
+        try {ret.add(input[row][col-1]);} catch (IndexOutOfBoundsException ignored) {}
+        try {ret.add(input[row][col+1]);} catch (IndexOutOfBoundsException ignored) {}
+        return ret;
+    }
+
+    public static int[][] deepCopy(int[][] original) {
+        if (original == null) return null;
+
+        int[][] copy = new int[original.length][];
+        for (int i = 0; i < original.length; i++) {
+            copy[i] = original[i].clone(); // Clone each row to ensure a deep copy
+        }
+        return copy;
+    }
+
     public static void printGrid(int[][] input, int size) {
         for(int i = 0; i < size; i++) {
             for(int j = 0; j < size; j++) {
-                if(input[i][j] == 0) System.out.print("_" + " ");
-                else System.out.print(input[i][j] + " ");
+                System.out.print(input[i][j]);
             }
             System.out.println();
         }
