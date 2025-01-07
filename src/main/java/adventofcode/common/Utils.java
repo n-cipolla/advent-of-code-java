@@ -23,6 +23,17 @@ public class Utils {
         return lines;
     }
 
+    public static ArrayList<Integer> stringToIntArrayList(List<String> input) throws NumberFormatException {
+        ArrayList<Integer> ret = new ArrayList<>();
+        try {
+            for(String s : input) {
+                ret.add(Integer.parseInt(s));
+            }
+        } catch (NumberFormatException e) {throw new NumberFormatException(e.getMessage());}
+
+        return ret;
+    }
+
     public static List<String> realOrTest(File real, File test) throws IllegalArgumentException {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter [t] for testing or [r] for real input: ");
@@ -62,6 +73,21 @@ public class Utils {
     }
 
     public static void printGrid(char[][] input) {
+        int size = input.length;
+        printGrid(input, size);
+    }
+
+    public static void printGrid(int[][] input, int size) {
+        for(int i = 0; i < size; i++) {
+            for(int j = 0; j < size; j++) {
+                System.out.print(input[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+
+    public static void printGrid(int[][] input) {
         int size = input.length;
         printGrid(input, size);
     }

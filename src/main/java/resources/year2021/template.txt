@@ -1,0 +1,34 @@
+package main.java.adventofcode.year21.days;
+
+import main.java.adventofcode.common.Utils;
+import main.java.adventofcode.year21.Day2021;
+
+import java.io.File;
+
+public class Day{day} extends Day2021 {
+    public Day{day}() {
+        super({day});
+    }
+
+    public static void main(String[] args) {
+        new Day{day}().printParts();
+    }
+
+    @Override
+    public Object part1() {
+        File input = Day{day}.getResource("day{day}.txt", 2021);
+        File test = Day{day}.getResource("test{day}.txt", 2021);
+
+        var lines = Utils.realOrTest(input, test);
+        return 2021;
+    }
+
+    @Override
+    public Object part2() {
+        File input = Day{day}.getResource("day{day}.txt", 2021);
+        File test = Day{day}.getResource("test{day}.txt", 2021);
+
+        var lines = Utils.realOrTest(input, test);
+        return 2021;
+    }
+}
