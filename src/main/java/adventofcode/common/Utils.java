@@ -80,7 +80,8 @@ public class Utils {
     public static void printGrid(int[][] input, int size) {
         for(int i = 0; i < size; i++) {
             for(int j = 0; j < size; j++) {
-                System.out.print(input[i][j] + " ");
+                if(input[i][j] == 0) System.out.print("_" + " ");
+                else System.out.print(input[i][j] + " ");
             }
             System.out.println();
         }
@@ -90,5 +91,46 @@ public class Utils {
     public static void printGrid(int[][] input) {
         int size = input.length;
         printGrid(input, size);
+    }
+
+    public static void printGridNoZeroes(int[][] input) {
+        int size = input.length;
+        printGrid(input, size);
+    }
+
+    /**
+     * Instantiates a 2x2 array of the filler character
+     *
+     * @param numRows the number of rows; e.g., arr[rows][]
+     * @param numCols the number of columns; e.g., arr[][cols]
+     * @param filler the character used to fill the grid by default
+     * @return a 2x2 array of size {@code numRows} x {@code numCols} populated with the {@code filler} character.
+     */
+    public static char[][] makeGridOfChars(int numRows, int numCols, char filler) {
+        char[][] ret = new char[numRows][numCols];
+        for(int i = 0; i < numRows; ++i) {
+            for(int j = 0; j < numCols; ++j) {
+                ret[i][j] = filler;
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Instantiates a 2x2 array of the filler character
+     *
+     * @param numRows the number of rows; e.g., arr[rows][]
+     * @param numCols the number of columns; e.g., arr[][cols]
+     * @param filler the integer used to fill the grid by default
+     * @return a 2x2 array of size {@code numRows} x {@code numCols} populated with the {@code filler} number.
+     */
+    public static int[][] makeGridOfInts(int numRows, int numCols, int filler) {
+        int[][] ret = new int[numRows][numCols];
+        for(int i = 0; i < numRows; ++i) {
+            for(int j = 0; j < numCols; ++j) {
+                ret[i][j] = filler;
+            }
+        }
+        return ret;
     }
 }

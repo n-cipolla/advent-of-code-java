@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year21/days/Day05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2021/day05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2021/test05.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year21/days/Day04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year21/days/Day04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/common/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/common/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/year2021/template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/year2021/template.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,7 @@
     "Application.main.java.adventofcode.year15.days.Day04.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day05.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day06.executor": "Run",
+    "Application.main.java.adventofcode.year21.days.Day05.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -196,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736112201134</updated>
       <workItem from="1736112202280" duration="15113000" />
-      <workItem from="1736139315634" duration="31152000" />
+      <workItem from="1736139315634" duration="35187000" />
     </task>
     <servers />
   </component>

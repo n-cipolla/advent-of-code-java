@@ -25,10 +25,10 @@ public class Day{day} extends Day2021 {
 
     @Override
     public Object part2() {
-        File input = Day{day}.getResource("day{day}.txt", 2021);
-        File test = Day{day}.getResource("test{day}.txt", 2021);
-
-        var lines = Utils.realOrTest(input, test);
+//        File input = Day05.getResource("day05.txt", 2021);
+//        File test = Day05.getResource("test05.txt", 2021);
+//
+//        var lines = Utils.realOrTest(input, test);
         return 2021;
     }
 }
