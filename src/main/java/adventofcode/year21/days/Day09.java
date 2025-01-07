@@ -93,7 +93,7 @@ public class Day09 extends Day2021 {
         if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length) {
             return; // Out of bounds
         }
-        if (grid[row][col] == 9) {
+        if (grid[row][col] == boundary) {
             return; // Hit a boundary
         }
         if (grid[row][col] == newValue) {
