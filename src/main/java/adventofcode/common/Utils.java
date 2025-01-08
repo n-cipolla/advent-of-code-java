@@ -95,6 +95,15 @@ public class Utils {
         return ret;
     }
 
+    public static ArrayList<Integer> eightNeighbours(int[][] input, int row, int col) {
+        ArrayList<Integer> ret = fourNeighbours(input, row, col);
+        try {ret.add(input[row-1][col-1]);} catch (IndexOutOfBoundsException ignored) {}
+        try {ret.add(input[row-1][col+1]);} catch (IndexOutOfBoundsException ignored) {}
+        try {ret.add(input[row+1][col-1]);} catch (IndexOutOfBoundsException ignored) {}
+        try {ret.add(input[row+1][col+1]);} catch (IndexOutOfBoundsException ignored) {}
+        return ret;
+    }
+
     public static int[][] deepCopy(int[][] original) {
         if (original == null) return null;
 
