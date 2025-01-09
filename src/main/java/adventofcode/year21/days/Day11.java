@@ -35,10 +35,7 @@ public class Day11 extends Day2021 {
 
         int flashes = 0;
 
-        System.out.println("Intial state:");
-        Utils.printGrid(grid);
-
-        for(int i = 0; i < 10; i++) {
+        for(int i = 0; i < 100; i++) {
             increaseAll(grid);
             for(int row = 0; row < rows; row++) {
                 for(int col = 0; col < cols; col++) {
@@ -46,8 +43,6 @@ public class Day11 extends Day2021 {
                 }
             }
             setNegOnesToZeros(grid);
-            System.out.println("After step " + i+1 + ":");
-            Utils.printGrid(grid);
         }
 
         return flashes;
@@ -65,7 +60,7 @@ public class Day11 extends Day2021 {
     private static void increaseAll(int[][] grid) {
         for(int i = 0; i < grid.length; i++) {
             for(int j = 0; j < grid[0].length; j++) {
-                grid[i][j] = grid[i][j] + 1;
+                grid[i][j]++;
             }
         }
     }
@@ -77,14 +72,21 @@ public class Day11 extends Day2021 {
             return 0;
         }
 
-        // If the cell is 9, flash it
-        if (grid[row][col] == 9) {
+        // If the cell is 10, flash it
+        if (grid[row][col] >= 10) {
             // Mark the cell as flashed (use -1 as the flash indicator)
             grid[row][col] = -1;
             int counter = 1;  // This cell has flashed
 
             // Increment neighbors
-            incrementNeighbors(grid, row, col);
+            incrementNeighbor(grid, row - 1, col + 1); // Top-right
+            incrementNeighbor(grid, row - 1, col - 1); // Top-left
+            incrementNeighbor(grid, row + 1, col + 1); // Bottom-right
+            incrementNeighbor(grid, row + 1, col - 1); // Bottom-left
+            incrementNeighbor(grid, row - 1, col);     // Top
+            incrementNeighbor(grid, row + 1, col);     // Bottom
+            incrementNeighbor(grid, row, col - 1);     // Left
+            incrementNeighbor(grid, row, col + 1);     // Right
 
             // Recursively check the neighbors
             counter += flash(grid, row - 1, col + 1); // Top-right
@@ -103,28 +105,45 @@ public class Day11 extends Day2021 {
         return 0;
     }
 
-    private static void incrementNeighbors(int[][] grid, int row, int col) {
-        // Increment the eight neighbors of the cell
-        if (row - 1 >= 0) {
-            if (col + 1 < grid[0].length && grid[row - 1][col + 1] != -1) grid[row - 1][col + 1]++;
-            if (col - 1 >= 0 && grid[row - 1][col - 1] != -1) grid[row - 1][col - 1]++;
-            if (grid[row - 1][col] != -1) grid[row - 1][col]++;
+    // Increment a single neighbor, ensuring no flashing if it's already flashed
+    private static void incrementNeighbor(int[][] grid, int row, int col) {
+        if (row >= 0 && col >= 0 && row < grid.length && col < grid[0].length) {
+            if (grid[row][col] != -1) { // Only increment if not already flashed
+                grid[row][col]++;
+            }
         }
-        if (row + 1 < grid.length) {
-            if (col + 1 < grid[0].length && grid[row + 1][col + 1] != -1) grid[row + 1][col + 1]++;
-            if (col - 1 >= 0 && grid[row + 1][col - 1] != -1) grid[row + 1][col - 1]++;
-            if (grid[row + 1][col] != -1) grid[row + 1][col]++;
-        }
-        if (col - 1 >= 0 && grid[row][col - 1] != -1) grid[row][col - 1]++;
-        if (col + 1 < grid[0].length && grid[row][col + 1] != -1) grid[row][col + 1]++;
     }
 
     @Override
     public Object part2() {
-//        File input = Day05.getResource("day11.txt", 2021);
-//        File test = Day05.getResource("test11.txt", 2021);
-//
-//        var lines = Utils.realOrTest(input, test);
-        return 2021;
+        File input = Day11.getResource("day11.txt", 2021);
+        File test = Day11.getResource("test11.txt", 2021);
+
+        var lines = Utils.realOrTest(input, test);
+        int rows = lines.size();
+        int cols = lines.get(0).length();
+
+        int[][] grid = Utils.makeGridOfInts(rows, cols, 0);
+
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
+                grid[row][col] = Integer.parseInt(String.valueOf(lines.get(row).charAt(col)));
+            }
+        }
+
+
+        int index = 0;
+
+        while(true) {
+            index++;
+            increaseAll(grid);
+            for(int row = 0; row < rows; row++) {
+                for(int col = 0; col < cols; col++) {
+                    int change = flash(grid,row,col);
+                    if(change == 100) return index;
+                }
+            }
+            setNegOnesToZeros(grid);
+        }
     }
 }
