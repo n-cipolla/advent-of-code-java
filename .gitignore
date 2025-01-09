@@ -30,3 +30,6 @@ bin/
 
 ### AoC ###
 src/main/resources/**
+
+### Log Files ###
+.log
