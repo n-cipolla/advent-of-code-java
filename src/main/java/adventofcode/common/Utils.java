@@ -61,9 +61,9 @@ public class Utils {
         return ret;
     }
 
-    public static void printGrid(char[][] input, int size) {
-        for(int i = 0; i < size; i++) {
-            for(int j = 0; j < size; j++) {
+    public static void printGrid(char[][] input) {
+        for (int i = 0; i < input.length; i++) {
+            for (int j = 0; j < input[0].length; j++) {
                 System.out.print(input[i][j]);
             }
             System.out.println();
@@ -71,14 +71,9 @@ public class Utils {
         System.out.println();
     }
 
-    public static void printGrid(char[][] input) {
-        int size = input.length;
-        printGrid(input, size);
-    }
-
-    public static void printRectGrid(int[][] input) {
-        for(int i = 0; i < input.length; i++) {
-            for(int j = 0; j < input[0].length; j++) {
+    public static void printGrid(int[][] input) {
+        for (int i = 0; i < input.length; i++) {
+            for (int j = 0; j < input[0].length; j++) {
                 System.out.print(input[i][j]);
             }
             System.out.println();
@@ -112,26 +107,6 @@ public class Utils {
             copy[i] = original[i].clone(); // Clone each row to ensure a deep copy
         }
         return copy;
-    }
-
-    public static void printGrid(int[][] input, int size) {
-        for(int i = 0; i < size; i++) {
-            for(int j = 0; j < size; j++) {
-                System.out.print(input[i][j]);
-            }
-            System.out.println();
-        }
-        System.out.println();
-    }
-
-    public static void printGrid(int[][] input) {
-        int size = input.length;
-        printGrid(input, size);
-    }
-
-    public static void printGridNoZeroes(int[][] input) {
-        int size = input.length;
-        printGrid(input, size);
     }
 
     /**
