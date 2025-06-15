@@ -12,7 +12,7 @@ Individual solutions located in `src/main/java/adventofcode/year##/days`.
 | 2020 | ![](https://geps.dev/progress/0)  |
 | 2021 | ![](https://geps.dev/progress/44) |
 | 2022 | ![](https://geps.dev/progress/0)  |
-| 2023 | ![](https://geps.dev/progress/20) |
+| 2023 | ![](https://geps.dev/progress/22) |
 | 2024 | ![](https://geps.dev/progress/18) |
 
 
