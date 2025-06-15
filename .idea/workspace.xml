@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year17/days/Day02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year17/days/Day03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year17/days/Day04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year17/days/Day05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/Day2023.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/days/day01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test07.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/days/day02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year15/Day2015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year15/Day2015.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +73,7 @@
     "Application.Day25.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.day01.executor": "Run",
+    "Application.day02.executor": "Run",
     "Application.main.java.adventofcode.year15.Main.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day01.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day02.executor": "Run",
@@ -243,7 +226,7 @@
       <workItem from="1738465892085" duration="11000" />
       <workItem from="1739421575772" duration="4084000" />
       <workItem from="1746323535753" duration="4000" />
-      <workItem from="1749985032420" duration="2496000" />
+      <workItem from="1749985032420" duration="3917000" />
     </task>
     <servers />
   </component>
