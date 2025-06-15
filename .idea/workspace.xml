@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/days/day02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/test02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/days/day03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +72,7 @@
     "Application.Main.executor": "Run",
     "Application.day01.executor": "Run",
     "Application.day02.executor": "Run",
+    "Application.day03.executor": "Run",
     "Application.main.java.adventofcode.year15.Main.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day01.executor": "Run",
     "Application.main.java.adventofcode.year15.days.Day02.executor": "Run",
@@ -86,6 +85,7 @@
     "Application.main.java.adventofcode.year21.days.Day06.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/allop/Documents/Advent-of-Code-Java/src/main/java/resources/year2023",
@@ -226,7 +226,7 @@
       <workItem from="1738465892085" duration="11000" />
       <workItem from="1739421575772" duration="4084000" />
       <workItem from="1746323535753" duration="4000" />
-      <workItem from="1749985032420" duration="3917000" />
+      <workItem from="1749985032420" duration="11065000" />
     </task>
     <servers />
   </component>
