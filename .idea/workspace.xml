@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/Day2019.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/days/day04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year23/days/day08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/day01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/test01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2023/day08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/day02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/test02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +120,9 @@
       <recent name="main.java.adventofcode.year17" />
       <recent name="main.java" />
       <recent name="main.java.adventofcode" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java.adventofcode.year19.days" />
     </key>
   </component>
   <component name="RunManager">
@@ -240,7 +237,7 @@
       <workItem from="1749985032420" duration="12849000" />
       <workItem from="1750388352014" duration="9000" />
       <workItem from="1750388369527" duration="12000" />
-      <workItem from="1752212775067" duration="807000" />
+      <workItem from="1752212775067" duration="2243000" />
     </task>
     <servers />
   </component>
