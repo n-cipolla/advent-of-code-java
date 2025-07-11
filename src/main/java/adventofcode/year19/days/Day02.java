@@ -66,7 +66,6 @@ public class Day02 extends Day2019 {
                 nums = parse(input);
                 nums.set(1, n);
                 nums.set(2, v);
-                System.out.println(nums);
 
                 for(int i = 0; i < nums.size(); i+=4) {
                     if(nums.get(i) == 1) {
