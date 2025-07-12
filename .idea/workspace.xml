@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/day02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/test02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/year2019/text03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/test03.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,12 +236,24 @@
       <workItem from="1749985032420" duration="12849000" />
       <workItem from="1750388352014" duration="9000" />
       <workItem from="1750388369527" duration="12000" />
-      <workItem from="1752212775067" duration="2243000" />
+      <workItem from="1752212775067" duration="2638000" />
+      <workItem from="1752286620401" duration="9827000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Advent_of_Code_Java$Main.ic" NAME="Main Coverage Results" MODIFIED="1736114138367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
