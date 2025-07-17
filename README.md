@@ -2,18 +2,21 @@ My solutions to the [Advent of Code](https://adventofcode.com/) problems for eac
 
 Individual solutions located in `src/main/java/adventofcode/year##/days`.
 
-| Year | Completion Percentage             |
-|------|-----------------------------------|
-| 2015 | ![](https://geps.dev/progress/78) |
-| 2016 | ![](https://geps.dev/progress/24) |
-| 2017 | ![](https://geps.dev/progress/28) |
-| 2018 | ![](https://geps.dev/progress/2)  |
-| 2019 | ![](https://geps.dev/progress/4)  |
-| 2020 | ![](https://geps.dev/progress/0)  |
-| 2021 | ![](https://geps.dev/progress/44) |
-| 2022 | ![](https://geps.dev/progress/0)  |
-| 2023 | ![](https://geps.dev/progress/22) |
-| 2024 | ![](https://geps.dev/progress/18) |
+
+| Year | Completion Percentage                                       |
+|------|-------------------------------------------------------------|
+| 2015 | <div align="center">![](https://geps.dev/progress/78)</div> |
+| 2016 | <div align="center">![](https://geps.dev/progress/24)</div> |
+| 2017 | <div align="center">![](https://geps.dev/progress/28)</div> |
+| 2018 | <div align="center">![](https://geps.dev/progress/2) </div> |
+| 2019 | <div align="center">![](https://geps.dev/progress/4) </div> |
+| 2020 | <div align="center">![](https://geps.dev/progress/0) </div> |
+| 2021 | <div align="center">![](https://geps.dev/progress/44)</div> |
+| 2022* | <div align="center">![](https://geps.dev/progress/0)</div>  |
+| 2023 | <div align="center">![](https://geps.dev/progress/22)</div> |
+| 2024 | <div align="center">![](https://geps.dev/progress/18)</div> |
+
+\* Year 2022 solved in Python [here](https://github.com/n-cipolla/advent-of-code-python/tree/main?tab=readme-ov-file).
 
 
 <small> Note: These solutions are not intended to be elegant; I began solving Advent of Code problems in 2023
