@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d218d8be-fe1a-48b7-ab15-0d29081c623d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/day04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/test04.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventofcode/year19/days/Day03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/year2019/text03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/year2019/test03.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
       <recent name="main.java.adventofcode.year19.days" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Day05">
     <configuration name="Day05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.adventofcode.year24.days.Day05" />
       <module name="Advent-of-Code-Java" />
@@ -237,7 +238,8 @@
       <workItem from="1750388352014" duration="9000" />
       <workItem from="1750388369527" duration="12000" />
       <workItem from="1752212775067" duration="2638000" />
-      <workItem from="1752286620401" duration="9827000" />
+      <workItem from="1752286620401" duration="13115000" />
+      <workItem from="1752710219132" duration="820000" />
     </task>
     <servers />
   </component>
